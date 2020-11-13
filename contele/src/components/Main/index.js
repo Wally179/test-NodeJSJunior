@@ -10,7 +10,7 @@ export default class Main extends Component {
                 <input type="text" id="fname" name="fname" placeholder="First Name:" required/>
                 <input type="text" id="lname" name="lname" placeholder="Last Name:" required/> <br/>
                 <input type="email" id="email" name="email" placeholder="Email Address:" required/>
-                <input type="tel" id="phone" name="phone" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="Phone:" title="Six or more characters" required/> <br/>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{6,12}$" placeholder="Phone:" title="Six or more characters" required/> <br/>
                 <input list="languages" name="language" id="language" placeholder="Language:" class="ucol" required/>
                 <datalist id="languages">
                     <option value="Afrikaans">Afrikaans</option>
